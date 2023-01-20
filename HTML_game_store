@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME STORE</title>
+    <link rel="stylesheet" href="./loja_game.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class="cabesalho">
+            <h1>GAME STORE</h1>
+            <nav>
+                <ul id="painel">
+                    <li>
+                        <a href="http://127.0.0.1:5500/html/index.html" title="Faça Seu Cadastro"> CADASTRE-SE </a>
+                    </li>
+                    <li>
+                        <a href="#saiba-mais" title="Saiba mais"> SAIBA MAIS </a>
+                    </li>
+                    <li>
+                        <a href="#contact" title="Consoles"> CONTATO </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="saiba-mais">
+        <div class="cabesalho">
+            <div id="fachada">
+                <img src="https://i.pinimg.com/originals/a5/75/19/a575194f8eaf2adbfc751bd1a491a7c9.jpg" alt="Loja Física">
+            </div>
+            <div>
+                <h2> Sobre a Loja </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda hic impedit quam eum iusto in harum modi consequuntur fuga ducimus dolorum excepturi vitae pariatur itaque voluptates molestias, velit, unde animi.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem veritatis sit similique modi aut. Quas tenetur suscipit quibusdam, quo quaerat reprehenderit, voluptates, rerum repellat eos unde nostrum. Similique, repellendus blanditiis?
+                </p>
+                <div id="consoles">
+                    <ul>
+                        <li>
+                            <img src="https://logodownload.org/wp-content/uploads/2017/04/nintendo-logo-1-1-2048x535.png" alt="Nintendo">
+                        </li>
+                        <li>
+                            <img src="https://bango.com/content/uploads/2020/11/XBox.png" alt="xbox">
+                        </li>
+                        <li>
+                            <img src="https://logos-marques.com/wp-content/uploads/2022/04/Sega-logo.png" alt="sega">
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="cabesalho">
+            <h2> CONTATO </h2>
+            <div class="metods-contact">
+                <div>
+                    <h3> Fale Conosco </h3>
+                    <form>
+                        <input type="text" placeholder="Seu Nome" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="tel" placeholder="Telefone">
+                        <textarea placeholder="Deixe sua Mensagem" required></textarea>
+                        <button type="submit"> ENVIAR </button>
+                    </form>
+                </div>
+                <div>
+                    <h3> Nos Siga </h3>
+                    <ul class="r-social">
+                        <li>
+                            <a href="" title="Siga-nos no facebook">
+                                <img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-0.png" alt="Fabebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" title="Siga-nos no Instagram">
+                                <img src="https://th.bing.com/th/id/R.14fbf1be3bb79444c0245a51a0f89ab2?rik=UkXeB5L2aE8Biw&riu=http%3a%2f%2fpngimg.com%2fuploads%2finstagram%2finstagram_PNG9.png&ehk=GnhAoqBr5eV3LRtLGDB2XElOW7mvkdk29%2byVkqj09y8%3d&risl=&pid=ImgRaw&r=0" alt="Instagran">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" title="Siga-nos no YouTube">
+                                <img src="https://th.bing.com/th/id/OIP.Y9COKMQqkN_C_i0LHHqwDAHaFP?pid=ImgDet&rs=1" alt="YouTube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3> Venha Até Nós </h3>
+                    <p>
+                        Rua Python, nº647, Bairro da Anaconda, São Luís - MA.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="cabesalho">
+            <p>
+                &copy; GAME STORE - Todos os direiros reservados - 2023 
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
