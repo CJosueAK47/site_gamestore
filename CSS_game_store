@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+footer p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 19px;
+}
+
+body > header{
+    background-color: rgb(7, 0, 112);
+    border: 3px solid black;
+    padding: 16px 0px;
+}
+
+.cabesalho h1 {
+    color: rgb(255, 252, 234);
+    font-size: 50px;
+    font-family: 'Bungee', 'cursive';
+    font-weight: 900;
+}
+
+.cabesalho{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cabesalho nav li{
+    display: inline;
+    margin-left: 100px;
+    font-size: 20px;
+
+}
+
+header .cabesalho,
+section .cabesalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabesalho #painel li a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    padding: 8px;
+}
+#fachada img{
+    height: 700px;
+}
+
+#consoles li{
+    display: inline;
+    margin-right: 10px;
+}
+
+#consoles img{
+    height: 30px;
+}
+
+section {
+    padding: 24px 0px;
+
+}
+
+section h2,
+section h3,
+form button{
+    margin-bottom: 19px;
+    color: rgb(7, 0, 112);
+    font-family: 'Bungee', cursivo;
+    font-weight: 800;
+}
+
+section .cabesalho{
+    align-items: flex-start;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+#fachada img{
+    margin-right: 40px;
+}
+
+.cabesalho h2{
+    font-size: 40px;
+}
+
+#contact .cabesalho{
+    display: block;
+}
+
+.metods-contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.r-social li{
+    display: inline;
+}
+
+.r-social li a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+.r-social img{
+    height: 50px;
+
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 8px;
+    padding: 10px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    font-size: 27px;
+    margin-bottom: 19px;
+}
+
+form button{
+    background-color: rgb(7, 0, 112);
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(109, 102, 219);
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(7, 0, 112);
+}
+
+footer{
+    background-color: rgb(7, 0, 112);
+    color: whitesmoke;
+    padding: 13px;
+}
